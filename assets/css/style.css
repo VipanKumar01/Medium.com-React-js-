@@ -1,0 +1,463 @@
+header.header img {
+    width: 150px;
+    height: 60px;
+}
+
+
+.header {
+    /* display: flex !important;
+    align-items: center !important; */
+    justify-content: center !important;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+
+}
+
+
+
+header.header ul.navbar-nav li a {
+    color: #fff !important;
+    /* text-transform: uppercase !important; */
+    font-size: 14px !important;
+    font-weight: 10px;
+
+}
+
+a.nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    font-size: 1.125rem !important;
+}
+
+img.img-fluid {
+    padding: 0;
+}
+
+ul.dropdown-menu.show {
+    background: black;
+}
+
+/* !-------------------------------------------------------------- */
+
+
+/* .navigation-bar .navbar {
+    background: black;
+    padding-bottom: 0px;
+} */
+
+/* .navigation-bar .navbar .nav-item{
+    font-size: large;
+} */
+
+
+
+.row {
+    margin: 0;
+}
+
+/* header.navigation-bar .row {
+    margin: 0;
+} */
+
+section.hero-content img {
+    height: 698px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    background: #00000066;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+
+section.hero-content {
+    position: relative;
+}
+
+header.navigation-bar li.nav-item a {
+    color: #fff !important;
+    /* text-transform: uppercase !important; */
+    font-size: 14px !important;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    width: 500px;
+    justify-content: space-between;
+}
+
+div.home-banner {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.text-36 {
+    font-size: 2.25rem;
+}
+
+.dis-card .h-services-container {
+    display: grid;
+    grid-template-columns: 42.4375rem 44.25rem;
+    background: url("http://hashedin.com/wp-content/uploads/2022/11/del-se-services-bg.png") no-repeat;
+    padding: 0rem 12.4375rem 0 7rem;
+    color: white;
+    background-size: 108rem;
+    background-position: 0 0;
+}
+
+.dis-card .h-services-container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dis-card .h-services-container .sub-title {
+    color: white;
+    line-height: 2.383125rem;
+    font-weight: 500;
+    padding: 0 0 2.125rem 0;
+}
+
+.dis-card .h-services-container .title {
+    line-height: 3.064375rem;
+    font-weight: 700;
+    padding-bottom: 1.75rem;
+    padding-top: 6.5625rem;
+    width: 43.4375rem;
+}
+
+.dis-card .h-services-container .desc {
+    line-height: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 43rem;
+}
+
+.dis-card .h-services-container .desc:last-child {
+    padding-bottom: 6.5rem;
+}
+
+
+.dis-card1 .eng-adv-container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 3.75rem 0;
+    line-height: 3.064375rem;
+    font-weight: 700;
+    padding-bottom: 1.75rem;
+    padding-top: 6.5625rem;
+    width: 43.4375rem;
+    color: #fff;
+}
+
+.dis-card1 .eng-adv-container p {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -84px;
+}
+
+.dis-card1 .eng-adv-container div.text-18 {
+    text-align: center;
+}
+
+.dis-card1 .dis-card1-div-2 {
+    position: absolute;
+    left: 20%;
+    top: 120%;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.125rem !important;
+}
+
+.watch-video {
+    background: #43B02A;
+    padding: 0.625rem 0;
+    width: 14.3125rem;
+    margin: 0 auto;
+    grid-gap: 0.625rem;
+    display: flex;
+    cursor: pointer;
+}
+
+section.batches div.container {
+    background-color: #43B02A;
+    width: 100%;
+    height: 30%;
+
+}
+
+section.hero-content {
+    position: relative;
+}
+
+.batches {
+    /* width: 61rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background: black;
+}
+
+.batches {
+    /* width: 61rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.del-se-adv {
+    padding: 1.0625rem 2rem 1.0625rem 1.25rem;
+    display: grid;
+    grid-gap: 1.5625rem;
+    color: #d0d0ce;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 0.625rem;
+}
+
+.del-se-adv div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.del-se-adv-text {
+    line-height: 1.8725rem;
+}
+
+.del-se-adv:first-child {
+    grid-template-columns: 2.375rem max-content;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.del-se-adv:nth-child(2) {
+    grid-template-columns: 2.30125rem max-content;
+    margin-top: 0;
+}
+
+.del-se-adv:nth-child(3) {
+    grid-template-columns: 1.560625rem max-content;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.del-se-adv:nth-child(4) {
+    grid-template-columns: 2.46125rem max-content;
+    margin-left: 0;
+}
+
+.del-se-adv:nth-child(5) {
+    grid-template-columns: 2.7425rem max-content;
+    margin-right: 0;
+}
+
+section.card-content .card img {
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container.row.justify-content-center {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+.one-card {
+    position: relative;
+    background: black;
+}
+
+.one-card .text.text-28 {
+    font-size: 28px;
+}
+.one-card .one-card-content {
+    font-size: 19px;
+}
+
+.one-card .green-back {
+    position: relative;
+    background: rgb(224, 9, 9);
+}
+
+.one-card h3 {
+    justify-content: left;
+    left: 50px;
+    right: 100px;
+}
+
+.one-card h5 {
+
+    background: black;
+}
+
+.one-card-div {
+    color: #ffffff;
+    background: black;
+    display: grid;
+    grid-template-columns: 19.9375rem 44.875rem;
+    grid-gap: 6.5rem;
+    padding: 3.5625rem 6.75rem 3.5625rem 5rem;
+    background-color: #215615;
+    background: url("http://hashedin.com/wp-content/uploads/2022/11/de-focus-bg.png") no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+
+#card-area-id {
+    background: black;
+    padding: 100px;
+}
+
+.card-area {
+    /* margin-top: 30px; This is not Reco. for changing the Background color */
+    background: black;
+}
+
+.card-area div.card {
+    color: #fff;
+    background: black;
+    width: 100px;
+    margin-left: 80px;
+
+}
+
+.card-area a {
+    color: #14ff00;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.card-area h5.card-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-area img {
+    width: 254px;
+}
+
+.card-area p.card-text {
+    text-align: center;
+}
+
+.card-area div.container {
+    left: 60%;
+}
+
+.news-content div.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.news-card div.container {
+    color: #43b02a;
+    font-weight: 700;
+    line-height: 3rem;
+    padding-bottom: 1.75rem;
+    padding-top: 2.5625rem;
+    font-size: 1.75rem;
+}
+
+.news-card .content .card {
+    color: white;
+    font-weight: 600;
+    line-height: 2.125rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ! Footer */
+
+footer.footer-section {
+    background: black;
+    height: 510px;
+}
+
+
+footer.footer-section img {
+    height: 100px;
+    margin-top: 90px;
+}
+
+footer.footer-section .inner-footer {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4.6875rem 5rem;
+    display: grid;
+    grid-template-columns: 19.5rem repeat(4, max-content);
+    grid-gap: 4.9375rem;
+    margin: 50px;
+}
+
+/* 
+footer.footer-section .footer-office-address .icon-image {
+    margin-bottom: 40px;
+    width: 2.125rem;
+    padding-right: 0.75rem;
+}
+
+footer.footer-section .title.text-16{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+} */
+
+footer.footer-section .footer-col-1 {
+    padding-left: 3.375rem;
+}
+
+footer.footer-section a {
+    color: #d0d0ce;
+    text-decoration: none;
+    line-height: 2.25rem;
+}
+
+
+
+footer.footer-section {
+    color: #d0d0ce;
+}
+
+footer.footer-section .icon-image {
+    margin-top: -111px;
+}
+
+.footer-social-links {
+    display: grid;
+    grid-template-columns: max-content 17.5rem;
+    grid-gap: 52.0625rem;
+    padding-top: 2.5rem;
+}
+
+.footer-social-links .social-icons {
+    display: grid;
+    grid-gap: 0.625rem;
+    grid-template-columns: repeat(5, 3rem);
+}
+
+footer.footer-section a.text-16:hover {
+    color: red;
+}
