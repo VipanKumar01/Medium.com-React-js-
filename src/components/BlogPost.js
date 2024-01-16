@@ -244,9 +244,9 @@ function BlogPost() {
           </div>
 
         </div>
-        <div class="p-4 md:w-[38%] w-[100%] h-[100vh] sticky top-0">
+        <div class="p-4 md:w-[38%] w-[100%] h-[100%] sticky top-0">
           <h1 class="font-bold text-xl">Discover more of what matters to you</h1>
-          <div class="mt-5">
+          <div class="mt-5 text-center">
             <button class="bg-[#e1e1e1] py-2 px-3 rounded-3xl ml-3 mr-3 mb-3">Programming</button>
             <button class="bg-[#e1e1e1] py-2 px-3 rounded-3xl ml-3 mr-3 mb-3">Data Science</button>
             <button class="bg-[#e1e1e1] py-2 px-3 rounded-3xl ml-3 mr-3 mb-3">Technology</button>
@@ -258,25 +258,25 @@ function BlogPost() {
             <button class="bg-[#e1e1e1] py-2 px-3 rounded-3xl ml-3 mr-3 mb-3">Politics</button>
           </div>
           <h2 class="text-green-500 font-light underline">See more topics..</h2>
-          <div class="mt-8 space-x-4">
-            <a href="#" class="text-slate-500">Help</a>
-            <a href="#" class="text-slate-500">Status</a>
-            <a href="#" class="text-slate-500">About</a>
-            <a href="#" class="text-slate-500">Careers</a>
-            <a href="#" class="text-slate-500">Blog</a>
-            <a href="#" class="text-slate-500">Privacy</a>
-            <a href="#" class="text-slate-500">Terms</a>
-            <a href="#" class="text-slate-500">Text to speech</a>
-            <a href="#" class="text-slate-500">Teams</a>
+          <div class="mt-8 space-x-4 text-center flex flex-wrap justify-center">
+            <p class="text-slate-500">Help</p>
+            <p class="text-slate-500">Status</p>
+            <p class="text-slate-500">About</p>
+            <p class="text-slate-500">Careers</p>
+            <p class="text-slate-500">Blog</p>
+            <p class="text-slate-500">Privacy</p>
+            <p class="text-slate-500">Terms</p>
+            <p class="text-slate-500">Text to speech</p>
+            <p class="text-slate-500">Teams</p>
           </div>
         </div>
 
       </div>
       <hr />
-        <h1 class="text-center" id="sohne-400">Made with ❤️ by <a class="no-underline text-blue-500"
-          href="linkedin.com/in/vipankumar01" target="_blank">Vipan Kumar</a></h1>
-      </>
-      )
+      <h1 class="text-center" id="sohne-400">Made with ❤️ by <a class="no-underline text-blue-500"
+        href="linkedin.com/in/vipankumar01" target="_blank">Vipan Kumar</a></h1>
+    </>
+  )
 }
 
-      export default BlogPost
+export default BlogPost
