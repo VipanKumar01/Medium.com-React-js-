@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "sohne-700";
+    src: url(../public/fonts/sohne-700-normal.ttf);
+}
+@font-face {
+    font-family: "sohne-400";
+    src: url(../public/fonts/gt-super-400-normal.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#hero-heading{
+    font-family: "sohne-400";
+}
+
+@media (max-width: 991px) {
+    .mylinks{
+        display: none !important;
+    }
+    .my-button{
+        display: block;
+    }
 }
